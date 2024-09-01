@@ -1,0 +1,219 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background: linear-gradient(to right ,#C1E3FF, #ABC7FF );
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	padding: 10px;
+	font-family:"open Sans","sans-serif;";
+}
+#scroll {
+	font-size: 2em;
+	text-shadow: 15px 15px 30px gray;
+	letter-spacing: 5px;
+}
+h1 {
+	font-family:"open Sans","consolas";
+	font-size: 2em;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 800px;
+	height: 50px;
+	text-align: center;
+	text-shadow: 5px 5px 15px gray;
+	letter-spacing: 5px;
+
+}
+h1:hover {
+	text-shadow: 5px 5px 10px gold;
+	box-shadow: 10px 10px 10px grey;
+}
+a:link {
+	color:lawngreen;
+}
+a:visited {
+	color:lawngreen;
+}
+a:hover {
+	color: blue;
+}
+#NeuralNetworks {
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 800px;
+	height: 100px;
+	text-align: center;
+}
+.container2{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+	clip-path: circle(50%);
+	transition: all 2s ease-in-out;
+}
+.container2:hover {
+	clip-path: circle(100%);
+    background-blend-mode:multiply;
+    float:left;
+}
+.container2:active {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+}
+.container3{
+	float: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 75% 94%, 51% 100%, 24% 93%, 0 100%);
+    transition: all 1s ease-in-out;
+}
+
+.container3:hover {	
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 51% 100%, 100% 100%, 0 100%);
+	background-blend-mode:multiply;
+}
+
+.container3:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+}
+.container4{
+	float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 72% 50%, 75% 100%, 50% 50%, 0 50%);
+    transition: all 1s ease-in-out;
+}
+
+.container4:hover {	
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 0 100%, 0 100%);
+}
+
+.container4:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+}
+section {
+	position : relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 400px;
+	padding: 100px 20vw;
+}
+.blue {
+	background: blue;
+}
+.red {
+	background: red;
+}
+.yellow {
+	background: yellow;
+}
+.brown {
+	background: brown;
+}
+.white{
+	background: white;
+}
+.pink {
+	background: pink;
+}
+.green {
+    background: green;
+}
+.orange {
+    background: orange;
+}
+.purple {
+    background: purple;
+}
+.magenta {
+	background: magenta;
+}
+:root {
+	--nav-width: 15vw ;
+}
+.navbar {
+	width: var(--nav-width);
+    background-color: gray;
+    padding: 10px;
+    margin : 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.navbar ul {
+	list-style-type: none;
+	background-color: gray;
+	padding: 0px;
+	margin : 10px;
+	overflow: hidden;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	text-align: center;
+}
+.navbar a:visited {
+    color: lawngreen;
+}
+.navbar a:hover {
+	background-color: black;
+}
+.navbar li {
+    float: left;
+}
+.center{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+	height: 250px;
+	background-color: #42a5f5;
+	box-shadow: 0px 0px 50px 3px #000;
+}
+span {
+	left: 10%;
+	top: 10%;
+	box-shadow: 0px 0px 25px;
+}
+span:nth-child(1){
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	background-color: #90caf9;
+	left: 6%;
+	top: 6%;
+	animation: ani 3s infinite;
+	animation-delay: 0.3s; 
+}
